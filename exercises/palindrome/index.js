@@ -12,3 +12,9 @@ function palindrome(str) {
 }
 
 module.exports = palindrome;
+
+// return rev = str.split('').reduce((acc, char) => {
+//   return char + acc
+// }, '') === str;
+
+// return str.split('').reverse().join('') === str;
